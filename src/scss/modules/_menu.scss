@@ -15,9 +15,7 @@
 }
 
 .menu-open {
-  position: static;
-  display: flex;
-  flex-direction: column;
+  display: none;
   z-index: 10;
   opacity: 0;
 }
@@ -36,14 +34,4 @@
 h1 {
   position: relative;
   z-index: -10;
-}
-
-.menu-open {
-  display: none;
-  z-index: 10;
-  opacity: 0;
-}
-
-.menu-open.is-open {
-  opacity: 1;
 }
